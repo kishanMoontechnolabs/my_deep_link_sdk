@@ -6,7 +6,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 class MockMyDeepLinkSdkPlatform
     with MockPlatformInterfaceMixin
     implements MyDeepLinkSdkPlatform {
-
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
 }
@@ -21,6 +20,5 @@ void main() {
   test('getPlatformVersion', () async {
     MockMyDeepLinkSdkPlatform fakePlatform = MockMyDeepLinkSdkPlatform();
     MyDeepLinkSdkPlatform.instance = fakePlatform;
-
   });
 }

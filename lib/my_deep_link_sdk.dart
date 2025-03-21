@@ -7,13 +7,15 @@ class MyDeepLinkSDK {
   MyDeepLinkSDK._();
 
   static const MethodChannel _channel = MethodChannel('my_deep_link_sdk');
-  static const EventChannel _eventChannel = EventChannel('my_deep_link_sdk_events');
+  static const EventChannel _eventChannel =
+      EventChannel('my_deep_link_sdk_events');
   static Stream<Map<String, String>>? _decodedLinkStream;
 
   /// **Encode parameters into Base64**
   String _encodeParameters(Map<String, String> params) {
     String jsonString = jsonEncode(params);
-    return base64UrlEncode(utf8.encode(jsonString)).replaceAll('=', ''); // Remove padding
+    return base64UrlEncode(utf8.encode(jsonString))
+        .replaceAll('=', ''); // Remove padding
   }
 
   /// **Decode received parameters**
