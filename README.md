@@ -106,7 +106,7 @@ void listenForDeepLinks() {
 ---
 
 ## 📜 Changelog
-See [`CHANGELOG.md`](https://github.com/kishanMoontechnolabs/my_deep_link_sdk/blob/main/CHANGELOG.md) for release notes.
+See [`CHANGELOG.md`](https://github.com/kishanMoontechnolabs/my_deep_link_sdk/blob/master/CHANGELOG.md) for release notes.
 
 ---
 
@@ -117,7 +117,7 @@ Feel free to **open an issue** or **submit a pull request**.
 ---
 
 ## 📄 License
-This project is licensed under the **MIT License** - see [`LICENSE`](https://github.com/kishanMoontechnolabs/my_deep_link_sdk/blob/main/LICENSE) for details.
+This project is licensed under the **MIT License** - see [`LICENSE`](https://github.com/kishanMoontechnolabs/my_deep_link_sdk/blob/master/LICENSE) for details.
 
 ---
 
