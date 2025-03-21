@@ -1,3 +1,5 @@
 ## 0.0.1
-
-* TODO: Describe initial release.
+- Initial release.
+- Added support for deep linking (custom scheme & web-based).
+- Supports Android & iOS.
+- Shorter deep link encoding.
