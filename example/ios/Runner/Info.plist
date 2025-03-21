@@ -2,6 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<key>AssociatedDomains</key>
+<array>
+    <string>applinks:kishanmoontechnolabs.github.io</string>
+</array>
+<key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleURLName</key>
+        <string>com.example.myapp</string> <!-- Change this to your iOS bundle ID -->
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>myapp</string> <!-- Your custom scheme -->
+        </array>
+    </dict>
+</array>
+
+<key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>myapp</string>
+</array>
+
+<key>UIApplicationSupportsIndirectInputEvents</key>
+<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
